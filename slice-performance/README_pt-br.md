@@ -9,7 +9,7 @@ Aprendi essa dica enquanto procurava formas de otimizar uma de nossas apis aqui 
 Para este exemplo, peguei o conteúdo do livro [Moby Dick](https://github.com/GITenberg/Moby-Dick--Or-The-Whale_2701) e dividi o texto para criar um `slice` de strings (usando `strings.Split(book, " ")`) com um tamanho aproximado de 190000 palavras. Nosso objetivo é processar cada uma delas e criar um novo `slice` do tipo `Word` contendo nossa palavra modificada.
 
 
-O código usado pode ser encontrado no [meu github](https://github.com/dubonzi/blog/slice-performance).
+O código usado pode ser encontrado no [meu github](https://github.com/dubonzi/blog/tree/main/slice-performance).
 
 Ps: Os testes de performance fora rodados usando um `AMD Ryzen 5 5600X`.
 

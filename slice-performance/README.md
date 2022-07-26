@@ -10,7 +10,7 @@ Go's slices are fairly easy and simple to use but when working with a lot of dat
 
 For this example, I took the entirety of the book [Moby Dick](https://github.com/GITenberg/Moby-Dick--Or-The-Whale_2701) and split its contents to create a slice of strings (using `strings.Split(book, " ")`), which results in a array of ~190000 length. Our goal is to process each word and create a new slice of type `Word` containing our modified word.
 
-The code used can be found on [my github](https://github.com/dubonzi/blog/slice-performance).
+The code used can be found on [my github](https://github.com/dubonzi/blog/tree/main/slice-performance).
 
 Ps: Benchmarks were run using a `AMD Ryzen 5 5600X`.
 
